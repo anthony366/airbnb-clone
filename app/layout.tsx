@@ -15,7 +15,8 @@ export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Online-bnb",
-  description: "Airbnb clone",
+  description:
+    "Find amazing places to stay at amazing prices anywhere in the world!",
 };
 
 export default async function RootLayout({
@@ -27,7 +28,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/airbnb.ico" sizes="any" />
+        <link rel="icon" href="/airbnb-favicon.ico" sizes="any" />
       </head>
       <body className={font.className}>
         <ToasterProvider />
