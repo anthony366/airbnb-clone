@@ -14,7 +14,7 @@ const font = Nunito({ subsets: ["latin"] });
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Airbnb",
+  title: "Online-bnb",
   description: "Airbnb clone",
 };
 
@@ -27,7 +27,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/airbnb-favicon.ico" sizes="any" />
+        <link rel="icon" href="/airbnb.ico" sizes="any" />
       </head>
       <body className={font.className}>
         <ToasterProvider />
