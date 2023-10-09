@@ -9,8 +9,8 @@ const Logo = () => {
       onClick={() => router.push("/")}
       alt="Logo"
       className="hidden md:block cursor-pointer"
-      height="32"
-      width="100"
+      height="40"
+      width="128"
       src="/images/online-bnb-logo.png"
     />
   );
