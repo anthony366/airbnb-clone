@@ -58,6 +58,7 @@ const Search = () => {
         w-full 
         md:w-auto 
         py-2 
+        px-2
         rounded-full 
         shadow-sm 
         hover:shadow-md 
