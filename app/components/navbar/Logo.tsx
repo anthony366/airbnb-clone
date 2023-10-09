@@ -21,7 +21,7 @@ const Logo = () => {
         className="hidden md:block cursor-pointer"
         height="47"
         width="43"
-        src="/images/online-bnb-brand.png"
+        src="/images/online-bnb_brand.png"
       />
     </>
   );
