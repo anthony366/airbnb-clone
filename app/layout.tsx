@@ -8,7 +8,7 @@ import RentModal from "./components/modals/RentModal";
 import SearchModal from "./components/modals/SeachModal";
 import ToasterProvider from "./providers/ToasterProvider";
 import getCurrentUser from "./actions/getCurrentUser";
-import Favicon from "/public/images/airbnb-favicon.ico";
+import Favicon from "/public/images/online-bnb-favicon.ico";
 
 const font = Nunito({ subsets: ["latin"] });
 
