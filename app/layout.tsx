@@ -8,6 +8,7 @@ import RentModal from "./components/modals/RentModal";
 import SearchModal from "./components/modals/SeachModal";
 import ToasterProvider from "./providers/ToasterProvider";
 import getCurrentUser from "./actions/getCurrentUser";
+import Favicon from "/public/images/airbnb-favicon.ico";
 
 const font = Nunito({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export const metadata: Metadata = {
   title: "Online-bnb",
   description:
     "Find amazing places to stay at amazing prices anywhere in the world!",
+  icons: [{ rel: "icon", url: Favicon.src }],
 };
 
 export default async function RootLayout({
@@ -27,9 +29,6 @@ export default async function RootLayout({
   const currentUser = await getCurrentUser();
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/airbnb-favicon.ico" sizes="any" />
-      </head>
       <body className={font.className}>
         <ToasterProvider />
         <SearchModal />
