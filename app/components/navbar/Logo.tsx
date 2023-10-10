@@ -20,7 +20,7 @@ const Logo = () => {
         alt="Logo"
         className="hidden md:block mr-2 lg:hidden cursor-pointer"
         height="47"
-        width="43"
+        width="40"
         src="/images/online-bnb_brand.png"
       />
     </>
